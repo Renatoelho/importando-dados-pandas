@@ -1,16 +1,26 @@
 # Importando dados com Pandas 
 
+### Requisitos mínimos:
+
+Instale as bibliotecas necessárias executando o seguinte comando: 
+
+```bash
+pip install -r requirements.txt
+```
+
+ >> *Lembre-se que o ambiente virtual do Python deve estar ativo para execução do comando.*
+
 Pandas é uma biblioteca da linguagem Python muito utilizada para análise de dados, trabalha com a manipulação de <i>Dataframes</i>, que são estruturas de dados em formato de tabelas e séries temporais. A biblioteca é muito usada pela comunidade de análise de dados e <i>Data Science</i>. 
 
 O nome pandas vem da junção dos prefixos das palavras <i>panel data</i>, termo em inglês que é usado por profissionais de estatística que refere-se à amostra de dados.
 
-Um <i>Dataframe</i> é criado a partir de uma base externa, que pode ser um banco de dados <i>SQL</i> e/ou <i>NoSQL</i> ou até mesmo arquivos como: <i>txt, xls, csv</i> entre outros. Essa é a primeira etapa para quem vai usar o pandas para analisar dados.
+Um <i>Dataframe</i> é criado a partir de uma base externa, que pode ser uma tabela de banco de dados ou até mesmo arquivos como: <i>txt, xls, csv</i> entre outros. Essa é a primeira etapa para quem vai usar o pandas para analisar dados.
 
 No nosso exemplo aqui vamos importar uma base de clientes a partir de um arquivo ````.csv````, mas a lógica aplicada aqui pode ser feita para outros tipos de arquivos. 
 
->> Consulte a documentação do Pandas que você terá mais ajuda em relação aos arquivos que podem ser importados.
+>> *Consulte a documentação do Pandas que você terá mais ajuda em relação aos arquivos que podem ser importados.*
 
-Na documentação do repositório teremos a [base de clientes](BaseClientes.csv) o [Jupyter notebook](import_csv_pandas.ipynb) e as demais informações necessárias para você replicar o apresentado aqui na sua máquina de desenvolvimento.
+Na documentação do repositório teremos a [base de clientes](BaseClientes.csv), o [Jupyter notebook](import_csv_pandas.ipynb) e as demais informações necessárias para você replicar o apresentado aqui na sua máquina de desenvolvimento.
 
 Essa base de clientes tem 5 colunas e 1000 linhas e vamos importar usado o comando ````read_csv()```` existente no Pandas.
 
