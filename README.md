@@ -22,7 +22,7 @@ No nosso exemplo aqui vamos importar uma base de clientes a partir de um arquivo
 
 Na documentação do repositório teremos a [base de clientes](BaseClientes.csv), o [Jupyter notebook](import_csv_pandas.ipynb) e as demais informações necessárias para você replicar o apresentado aqui na sua máquina de desenvolvimento.
 
-Essa base de clientes tem 5 colunas e 1000 linhas e vamos importar usado o comando ````read_csv()```` existente no Pandas.
+Essa base de clientes tem **5** colunas e **1000** linhas e vamos importar usado o comando ````read_csv()```` existente no Pandas.
 
 ```Python
 
@@ -43,4 +43,3 @@ Em breve volto com novos tutoriais sobre o **Pandas** e como usá-lo para manipu
 **Até lá.**
 
 **Referências:**  <br/><font size="1">Wikipedia, **pandas (software).** Disponível em: <https://pt.wikipedia.org/wiki/Pandas_(software)>. Acesso em: 05 mai. 2021.   <br/>Pandas, **User Guide.** Disponível em: <https://pandas.pydata.org/docs/user_guide/index.html>.  Acesso em: 05 mai. 2021.   <br/>Pandas, **pandas.read_csv().** Disponível em: <https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html#pandas.read_csv>. Acesso em: 05 mai. 2021.   <br/></font>
-
